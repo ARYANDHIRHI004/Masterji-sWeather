@@ -4,7 +4,7 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: rgba(0, 0, 0, 0.568);
-  background-image: url(/public/noaa-PySq7yX6hlw-unsplash.jpg);
+  background-image: url(/src/assets/daniil-silantev-bpTrpq2Ludc-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -32,7 +32,8 @@ nav{
 }
 
 .left {
-  background: rgba(53, 53, 53, 0.2);
+  box-sizing: border-box;
+  background: rgba(19, 19, 19, 0.2);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
@@ -42,9 +43,10 @@ nav{
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 4vw;
+  width: 3vw;
   min-height: 80vh;
-  padding: 5px;
+  padding: 15px;
+  gap: 40px;
 }
 .right {
   display: flex;
@@ -70,7 +72,7 @@ nav{
 }
 
 .weatherDetailCard{
-  background: rgba(53, 53, 53, 0.2);
+  background: rgba(19, 19, 19, 0.2);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
@@ -100,7 +102,7 @@ nav{
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 11px;
-   background: rgba(53, 53, 53, 0.2);
+   background: rgba(19, 19, 19, 0.2);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
