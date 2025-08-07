@@ -1,0 +1,121 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: rgba(0, 0, 0, 0.568);
+  background-image: url(/public/daniil-silantev-bpTrpq2Ludc-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-blend-mode: ; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+}
+
+.mainContainer {
+  display: flex;
+  gap: 50px;
+  padding: 30px;
+}
+
+.left {
+  background: rgba(53, 53, 53, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(160, 160, 160, 0.3);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 4vw;
+  min-height: 80vh;
+  padding: 5px;
+}
+.right {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+}
+
+.locationWeather{
+  line-height: 20px;
+}
+
+.cityName{
+  font-size: 15px;
+}
+
+.temperature{
+  font-size: 50px;
+}
+
+.weatherDescription{
+  font-size: 50px;
+  color: rgba(148, 148, 148, 0.781);
+}
+
+.weatherDetailCard{
+  background: rgba(53, 53, 53, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(160, 160, 160, 0.3);
+  border-radius: 25px;
+  padding: 15px;
+  width: 90px;
+  height: 80px;
+}
+.weatherDetailCardContainer{
+  display: flex;
+  width: 280px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.searchCity{
+  display: flex;
+  align-items: center;
+}
+#cityInput{
+  width: 350px;
+  height: 25px;
+  border-radius: 50px;
+  border: none;
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 11px;
+   background: rgba(53, 53, 53, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(160, 160, 160, 0.3);
+  color: white;
+}
+
+#cityInput::placeholder{
+  color: white;
+}
+
+.citySearchBtn{
+  background-color: rgba(51, 51, 51, 0);
+  height: 25px;
+  border: none;
+
+}

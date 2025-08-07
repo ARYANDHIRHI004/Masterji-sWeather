@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+  <div id="app">
+    <nav>
+      <h1>Masterji's Weathers</h1>
+      <div class="searchCity">
+        <input id="cityInput" type="text" placeholder="Enter Yoyr City">
+        <button class="citySearchBtn"><img width="20" src="/public/search.svg" alt=""></button>
+      </div>
+    </nav>
+    <div class="mainContainer">
+
+      <div class="left">
+        Home
+      </div>
+
+      <div class="right">
+        <div class="locationWeather">
+          <h3 class="cityName">Raipur, Chhattisgarh, India</h3>
+          <h1 class="temperature">35C</h1>
+          <p class="weatherDescription">Strom with Party Cloudy</p>
+        </div>
+
+        <div class="weatherDetails">
+
+          <div class="weatherDetailCardContainer">
+            <div class="weatherDetailCard">
+              <p>HUMIDITY</p>
+              <p>82%</p>
+            </div>
+            <div class="weatherDetailCard">
+              <p>HUMIDITY</p>
+              <p>82%</p>
+            </div>
+            <div class="weatherDetailCard">
+              <p>HUMIDITY</p>
+              <p>82%</p>
+            </div>
+            <div class="weatherDetailCard">
+              <p>HUMIDITY</p>
+              <p>82%</p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
