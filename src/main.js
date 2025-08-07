@@ -60,7 +60,7 @@ async function getWeatherData(citylat, cityLong, city, state, country) {
   );
   console.log(res.data);
   console.log(cityName.innerHTML);
-  cityName.innerHTML = `${city}, ${state}, ${country}` || res.data?.name;
+  cityName.innerHTML = (city)?`${city}, ${state}, ${country}`: `${res.data?.name}, ${res.data?.sys.country}`;
   temperature.innerHTML = `${Math.floor(res.data?.main.temp - 273.15)}°C`;
   weatherDescription.innerHTML = `${res.data?.weather[0].description.toUpperCase()}`;
 }
